@@ -1,39 +1,27 @@
 # PRESENTA Styles Controller
 
-This is a `starter` scaffonding to help develop your own PRESENTA controller.
+![](https://img.shields.io/npm/v/@presenta/controller-styles)
 
-There are some parts you need to edit before publishing your own controller:
+This controller injects some CSS selectors to provide some pre-defined style options (fonts, colors, etc).
 
-- update the `name`, `version`, `unpkg` and `module` in `package.json`
-- update the `file` and `name` in `rollup.config.js`
-- update all the `starter` references in `src` and `test`
+## Documentation
 
-The following is a template documentation for the end user that needs to be integrated as well.
+Full documentation can be found [here](https://lib.presenta.cc/plugins/controllers/styles).
 
-## Installation
+## Contribute
 
-Please read the installation istructions for official plugins [here](https://lib.presenta.cc/extend/#install-an-official-plugin) using this unique identifier: `controller-starter`
+### Development
 
-## Usage
+To start a development session:
 
-To configure this controller use this setting:
+	npm start
 
-```js
-{
-    controllers:{
-      starter:true
-    }
-}
-```
+To build a release:
 
+	npm run build
 
-## Development
+## Licence
 
-Run the watcher:
+This plugin is released under the [3-Clause BSD license](LICENSE).
 
-    npm start
-
-and the local webserver
-
-    npm run test
-
+Copyright © 2020 Fabio Franchino, [https://fabiofranchino.com](https://fabiofranchino.com)

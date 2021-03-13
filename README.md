@@ -4,6 +4,8 @@
 
 This controller injects some CSS selectors to provide some pre-defined style options (fonts, colors, etc).
 
+No parameters are required, just include the plugin.
+
 ## Documentation
 
 Full documentation can be found [here](https://lib.presenta.cc/plugins/controllers/styles).

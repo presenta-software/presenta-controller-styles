@@ -3,8 +3,3 @@
   --fontHeading: 'Amatic SC', cursive;
   --fontText: 'Open Sans', sans-serif;
 }
-.fonts__duck h1,
-.fonts__duck h2,
-.fonts__duck h3 {
-  font-size:3rem;
-}

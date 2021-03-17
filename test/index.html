@@ -4,11 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PresentaControllerStyles</title>
+    <script src="presenta.min.js"></script>
     <script src="../dist/presenta-controller-styles.min.js"></script>
+    <style>
+        #app{
+            width: 400px;
+        }
+    </style>
 </head>
 <body>
+
+    <div id="app"></div>
     <script>
-        new PresentaControllerStyles()
+        const conf = {
+            colors: 'grad3',
+            fonts: 'rough',
+            scenes:[{
+                blocks:[{
+                    type:'text',
+                    scale: 4,
+                    text:'<h1><mark>Marked</mark> Title</h1><p>Text with <mark>MARK</mark></p>'
+                }]
+            }]
+        }
+
+        var c1 = JSON.parse(JSON.stringify(conf))
+        var c2 = JSON.parse(JSON.stringify(conf))
+        var c3 = JSON.parse(JSON.stringify(conf))
+
+        new Presenta('#app', conf)
+
+        c2.colorVar = 'sec'
+        new Presenta('#app', c2)
+
+        c3.colorVar = 'alt'
+        new Presenta('#app', c3)
     </script>
 </body>
 </html>

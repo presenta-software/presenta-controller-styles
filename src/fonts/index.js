@@ -7,16 +7,21 @@ import './finch.css'
 import './flow.css'
 import './goose.css'
 import './heron.css'
+import './spark.css'
+import './rough.css'
 
 const fonts = [
   'cardinal',
   'corvid',
   'creeper',
-  'duck', 
+  'duck',
   'finch',
   'flow',
   'goose',
-  'heron']
+  'heron',
+  'spark',
+  'rough'
+]
 
 /*
 kinglet

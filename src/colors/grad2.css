@@ -1,0 +1,25 @@
+.colors__grad2,
+.colors__grad2 .colorVar__main,
+.presenta .colors__grad2.colorVar__main {
+  --colorBack: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+  --colorFore: #fff;
+  --colorAccent:#000;
+  --colorAlt: #eee;
+}
+
+
+.colors__grad2 .colorVar__sec,
+.presenta .colors__grad2.colorVar__sec {
+  --colorBack: linear-gradient(147deg, #52ACFF 25%, #FFE32C 100%);
+  --colorFore: #fff;
+  --colorAccent:#000;
+  --colorAlt: #eee;
+}
+
+.colors__grad2 .colorVar__alt,
+.presenta .colors__grad2.colorVar__alt {
+  --colorBack: linear-gradient(147deg, #21D4FD 0%, #B721FF 100%);
+  --colorFore: #fff;
+  --colorAccent:#000;
+  --colorAlt: #fff;
+}
